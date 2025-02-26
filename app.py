@@ -167,7 +167,7 @@ if st.button("✅ Finalize Quiz Score"):
 
 # Section 5: Leaderboard with Persistent Data
 st.subheader("🏆 Leaderboard")
-leaderboard = {"Ayesha": 85, "Ali": 90, "Fatima": 78, "Ahmed": 92, user_name: random.randint(80, 100)}
+leaderboard = {"Maha": 85, "Areeb": 90, "Mosa": 78, "Mariyam": 92, user_name: random.randint(80, 100)}
 st.table(sorted(leaderboard.items(), key=lambda x: x[1], reverse=True))
 
 # Section 6: Motivational Video
